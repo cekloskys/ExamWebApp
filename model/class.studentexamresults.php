@@ -7,7 +7,7 @@ class StudentExamResults {
     function __construct() {
         // connect to filmcollector MySQL database
         // assign connection to field
-        $this->mysqli = new mysqli('localhost:3306', 'root', '', 'examdb');
+        $this->mysqli = new mysqli('us-cdbr-east-02.cleardb.com', 'b49bfc6fb3e3f4', '01cd6a08', 'heroku_fdc891a22960f34');
     }
     
     // declare destructor
