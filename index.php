@@ -30,7 +30,7 @@
                                     <option></option>
                                     <?php
                                     // include exam controller file
-                                    require_once '.\controller\exam.php';
+                                    require_once './controller/exam.php';
 
                                     // call select exam names controller function                            
                                     select_exam_names();
@@ -55,7 +55,7 @@
                                 <?php
                                 if (isset($_GET['exam'])) {
                                     // include movie controller file
-                                    require_once '.\controller\studentexamresults.php';
+                                    require_once './controller/studentexamresults.php';
 
                                     // get data input into form 
                                     // and store it in variables
